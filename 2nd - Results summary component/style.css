@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  */
+
+body{
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 740px;
+  height: 520px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+
+/* RESULT CLASS STYLES */
+
+.result {
+  width: 380px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(hsl(241, 100%, 80%), hsl(241, 100%, 60%));
+}
+
+.result-head {
+  position: absolute;
+  top: 9%;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.circle {
+  position: absolute;
+  top: 20%;
+  background-image: linear-gradient(
+    hsla(241, 81%, 54%, 1),
+    hsla(241, 81%, 54%, 0.9),
+    hsla(241, 81%, 54%, 0.8),
+    hsla(241, 81%, 54%, 0.7),
+    hsla(241, 81%, 54%, 0.6),
+    hsla(241, 81%, 54%, 0.5),
+    hsla(241, 81%, 54%, 0.4),
+    hsla(241, 81%, 54%, 0.3),
+    hsla(241, 81%, 54%, 0.2),
+    hsla(241, 81%, 54%, 0.1)
+  );
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+p span {
+  font-weight: 800;
+  font-size: 65px;
+  color: white;
+}
+
+.great {
+  position: absolute;
+  top: 65%;
+  font-weight: 800;
+  font-size: xx-large;
+  color: white;
+}
+
+.score {
+  position: absolute;
+  top: 75%;
+  font-size: large;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  color: whitesmoke;
+}
+
+/* SUMMARY CLASS STYLES */
+
+.summary {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary h2{
+  position: absolute;
+  top: 9%;
+  left: 55%;
+  font-weight: 600;
+}
+
+img{
+  width: 35px;
+  height: 40px;
+  padding-left: 1vw;
+}
+
+div{
+  display: flex;
+  border-radius: 15px;
+  padding-top: 0.7vh;
+}
+
+.reaction{
+  position: absolute;
+  top: 20%;
+  width: 280px;
+  height: 55px;
+  background-color: hsl(0, 60%, 96%);
+}
+
+.power{
+  padding-left: 1.5vw;
+  padding-top: 1.2vh;
+}
+
+.memory{
+  position: absolute;
+  top: 35%;
+  width: 280px;
+  height: 55px;
+  background-color: hsl(39, 60%, 96%);
+}
+
+.verbal{
+  position: absolute;
+  top: 50%;
+  width: 280px;
+  height: 55px;
+  background-color: hsl(166, 60%, 96%);
+}
+
+.visual{
+  position: absolute;
+  top: 65%;
+  width: 280px;
+  height: 55px;
+  background-color: hsl(234, 60%, 96%);
+}
+
+button{
+  position: absolute;
+  bottom: 6vh;
+  width: 280px;
+  height: 55px;
+  border-radius: 50px;
+  background-color: hsl(224, 29%, 35%);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+

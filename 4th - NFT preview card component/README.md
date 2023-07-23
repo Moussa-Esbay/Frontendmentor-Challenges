@@ -13,7 +13,7 @@
 
 ### Screenshot
 
-
+![NFT preview card screenshot](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/a497321e-2815-46ff-992c-d2a1d57260d4)
 
 ## My process
 

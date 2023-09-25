@@ -13,13 +13,16 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./scr![Desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/dddfde21-d09b-47db-9af3-890b74e313b8)
+eenshot.jpg)
+![](./screenshot![Mobile-Design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/2e920d4c-555b-4488-80f3-10948b202253)
+.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/6th%20-%20Stats%20preview%20card%20component)
+- Live Site URL: [Add live site URL here](https://6511f4a23b71c01128e94385--ubiquitous-kulfi-312a34.netlify.app/)
 
 ## My process
 

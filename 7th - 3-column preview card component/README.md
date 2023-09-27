@@ -13,12 +13,14 @@
 
 ### Screenshot
 
+![desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/74bfad0d-b1d8-4541-9c47-b81fbeaa82e2)
 
+![mobile design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/3e156bd6-109d-4015-b197-39f0ce46b379)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/7th%20-%203-column%20preview%20card%20component)
+- Live Site URL: [live site URL](https://65149ad15d02d6072ba166b5--starlit-begonia-b64e95.netlify.app/)
 
 ## My process
 

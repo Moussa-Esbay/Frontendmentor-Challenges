@@ -13,10 +13,14 @@
 
 ### Screenshot
 
+![Desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/f0f3c644-a77d-4199-ae42-3a0befc39c34)
+
+![Mobile-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/a8e28f9d-28da-471f-9080-40b666af1c49)
+
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/8th%20-%20Profile%20card%20component)
+- Live Site URL: [live site URL](https://6515eba0f011f6057d4ad805--cute-cocada-9882a2.netlify.app/)
 
 ## My process
 

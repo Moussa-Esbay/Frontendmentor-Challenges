@@ -12,12 +12,14 @@
 ## Overview
 
 ### Screenshot
+![Desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/866ba369-acc1-4132-b1b2-b0df670c9824)
 
+![Mobile-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/b1577240-4639-4757-96ce-6ccd8ca52c81)
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL])
+- Solution URL: [solution URL](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/9th%20-%20Social%20proof%20section)
+- Live Site URL: [live site URL](https://651e906b04faee08931dc86c--polite-dusk-2c7c1d.netlify.app/)
 
 ## My process
 

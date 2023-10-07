@@ -17,12 +17,14 @@
 ## Overview
 
 ### Screenshot
+![Desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/bd6dcea8-3ebf-4ebd-be07-d7347dd927a6)
+![Mobile-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/e75695f7-9cbc-499b-83e0-87e59c16c4a1)
 
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live site URL]()
+- Solution URL: [Solution URL](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/10th%20-%20Four%20card%20feature%20section)
+- Live Site URL: [Live site URL](https://65219ce689058320a8140220--harmonious-daifuku-d6d71f.netlify.app/)
 
 ## My process
 

@@ -19,14 +19,14 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/933f4690-5a18-4b37-8508-f9086b0d070a)
 
-
+![Mobile-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/a7db878d-83ef-4907-805f-bcd62d810c4e)
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/11th%20-%20Single%20price%20grid%20component)
+- Live Site URL: [live site URL](https://app.netlify.com/sites/peaceful-rolypoly-d09972/deploys/653e9021de07b01632bdf2e6)
 
 ## My process
 

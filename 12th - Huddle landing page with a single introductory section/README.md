@@ -19,14 +19,16 @@
 
 ### Screenshot
 
+![Mobile-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/01a5ea98-1fdf-44c7-a4e2-11b8947f3988)
 
 
+![Desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/660251f5-f62a-4146-bbb6-178f8252c8f5)
 
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/12th%20-%20Huddle%20landing%20page%20with%20a%20single%20introductory%20section)
+- Live Site URL: [live site URL](https://654019374244281dfe75a62d--tiny-boba-ca7b10.netlify.app/)
 
 ## My process
 

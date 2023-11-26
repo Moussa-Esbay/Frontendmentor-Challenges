@@ -17,15 +17,14 @@
 
 ### Screenshot
 
+![Desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/d55db873-09d1-48ce-814f-c17da2674a39)
 
-
-
-
+![Mobile-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/b0438c1b-f49c-45d1-b014-ef06ba3e1779)
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/14th%20-%20Testimonials%20grid%20section)
+- Live Site URL: [live site URL](https://6563224f143ed15b82948924--harmonious-marzipan-46f5e1.netlify.app/)
 
 ## My process
 

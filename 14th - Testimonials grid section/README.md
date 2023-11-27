@@ -201,6 +201,9 @@ span {
 .daniel-section {
     background-color: var(--MODERATE-VIOLET);
     grid-column: 1 / 3;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .daniel-section img {

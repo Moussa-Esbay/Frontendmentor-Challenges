@@ -1,0 +1,331 @@
+# Frontend Mentor - Fylo data storage component solution
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### Screenshot
+
+
+
+
+
+### Links
+
+- Solution URL: [solution URL]()
+- Live Site URL: [live site URL]()
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+
+
+To see how you can add code snippets, see below:
+
+```html
+<h1><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo data storage component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <section class="options">
+            <img src="images/logo.svg" alt="Fylo-Logo" class="fylo">
+            <div>
+                <img src="images/icon-document.svg" alt="Document" class="document">
+                <img src="images/icon-folder.svg" alt="Folder" class="folder">
+                <img src="images/icon-upload.svg" alt="Upload" class="upload">
+            </div>
+        </section>
+        <section class="storage">
+            <p>You've used <b>815 GB</b> of your storage</p>
+            <div class="storage-used">
+                <div class="circle"></div>
+            </div>
+            <p class="storage">
+                <span>0 GB</span>
+                <span>1000 GB</span>
+            </p>
+            <div>
+                <div class="storage-left">
+                    <p>
+                        <b>185</b>
+                        <span>GB LEFT</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html></h1>
+```
+```css
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --GRADIENT: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --PALE-BLUE: hsl(243, 100%, 93%);
+    --GRAYISH-BLUE: hsl(229, 7%, 55%);
+    --DARK-BLUE: hsl(228, 56%, 26%);
+    --VERY-DARK-BLUE: hsl(229, 57%, 11%);
+}
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--VERY-DARK-BLUE);
+    background-image: url(images/bg-desktop.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -85%;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 920px;
+}
+
+section {
+    background-color: var(--DARK-BLUE);
+}
+
+/* OPTIONS - SECTION */
+
+.options {
+    margin-right: 1.875em;
+    width: 350px;
+    height: 200px;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2.5em 8.125em 2.5em 2.5em;
+}
+
+.fylo {
+    margin-bottom: 1.875em;
+}
+
+div img {
+    background-color: var(--VERY-DARK-BLUE);
+    width: 50px;
+    height: 50px;
+    padding: 0.9375em;
+    border-radius: 10px;
+    margin-right: 0.45em;
+}
+
+/* STORAGE - SECTION */
+
+section.storage {
+    width: 540px;
+    height: 155px;
+    margin-top: 2.8125em;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    padding: 2.5em;
+}
+
+.storage-used {
+    width: 460px;
+    height: 20px;
+    background-color: hsla(229, 57%, 11%, 40%);
+    background-image: linear-gradient(to right,
+            hsl(6, 100%, 80%),
+            hsl(335, 100%, 65%) 75%,
+            hsla(229, 57%, 11%, 40%) 20%);
+    border-radius: 50px;
+    margin-top: 1.25em;
+    margin-bottom: 0.625em;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-left: 24em;
+}
+
+p.storage {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.storage-left {
+    width: 180px;
+    height: 90px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    font-size: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: -30%;
+    left: 86%;
+    transform: translate(-50%, 50%);
+    margin-top: 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 100% 70%, 100% 100%, 80% 70%, 0% 70%);
+}
+
+
+
+div p span {
+    color: var(--GRAYISH-BLUE);
+    font-size: 13px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 375px) {
+    body {
+        background-image: url(images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: unset;
+    }
+
+    /* OPTIONS - SECTION */
+
+    main {
+        display: unset;
+        width: 325px;
+    }
+
+    .options {
+        width: 325px;
+        height: 200px;
+        margin-right: unset;
+        margin-bottom: 1.25em;
+        padding: 2em;
+    }
+
+    div img {
+        background-color: var(--VERY-DARK-BLUE);
+        width: 50px;
+        height: 50px;
+        padding: 0.9375em;
+        border-radius: 10px;
+        margin-right: 0.9375em;
+    }
+
+    /* STORAGE - SECTION */
+
+    section.storage {
+        margin-top: unset;
+        width: 325px;
+        height: 160px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        font-size: 14px;
+        padding-top: 2.1875em;
+        padding-right: unset;
+        padding-left: unset;
+        padding-bottom: unset;
+    }
+
+    .storage-used {
+        width: 260px;
+        height: 15px;
+        background-color: hsla(229, 57%, 11%, 40%);
+        background-image: linear-gradient(to right,
+                hsl(6, 100%, 80%),
+                hsl(335, 100%, 65%) 75%,
+                hsla(229, 57%, 11%, 40%) 20%);
+        border-radius: 50px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 1.25em;
+        margin-bottom: unset;
+    }
+
+    .circle {
+        width: 15px;
+        height: 15px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 50%;
+        margin-left: 13em;
+    }
+
+    p.storage {
+        width: 260px;
+        margin-top: 3em;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2.6em;
+        font-size: 13px;
+    }
+
+    .storage-left {
+        width: 180px;
+        height: 70px;
+        background-color: hsl(0, 0%, 100%);
+        color: black;
+        font-size: 40px;
+        border-radius: 10px;
+        position: absolute;
+        top: unset;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 0.6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        clip-path: unset;
+    }
+
+    div p span {
+        color: var(--GRAYISH-BLUE);
+        font-size: 13px;
+    }
+
+}
+```
+
+## Author
+
+- Frontend Mentor - [@Moussa-Esbay](https://www.frontendmentor.io/profile/Moussa-Esbay)

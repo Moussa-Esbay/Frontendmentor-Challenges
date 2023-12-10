@@ -18,14 +18,14 @@
 
 ### Screenshot
 
+![Desktop-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/f01f9957-4583-4c89-afb7-c31260a3e573)
 
-
-
+![Mobile-design](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/assets/137887050/08ad1462-1bff-48e8-be4d-31252b733706)
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://github.com/Moussa-Esbay/Frontendmentor-Challenges/tree/main/13th%20-%20Fylo%20data%20storage%20component)
+- Live Site URL: [live site URL](https://657570c8ce77757c7bdb566b--serene-gaufre-a46822.netlify.app/)
 
 ## My process
 
